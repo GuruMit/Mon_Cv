@@ -1,0 +1,156 @@
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    background-color:ghostwhite;
+
+}
+
+.container
+{
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.container>div
+
+{
+    padding: 20px;
+}
+
+
+.mn_cv>h2>span
+{
+
+    color: red;
+}
+
+
+.profile{
+
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 0px;
+    left: 30px;
+    border-radius: 100%;
+    object-position: 0px 0px;
+    z-index: 100;
+}
+
+
+.profile_name_container
+{
+    border-radius: 5px;
+    padding: 25px;
+    background-color: crimson;
+    margin-top: -35px;
+    text-align: center;
+    z-index: 1;
+    filter: drop-shadow(10px 5px 10px rgb(88, 88, 88));
+
+}
+
+.profile_name_container>p:nth-child(3)
+{
+
+    font-size: 15px;
+
+
+}
+
+
+.profile_name_container>p{
+
+color: aliceblue;
+}
+
+.joindre
+{
+    background-color: ghostwhite;
+    padding: 20px;
+    text-align: start;
+}
+
+
+.joindre>:nth-child(1)
+{
+    color: red;
+}
+
+.profil_prof
+{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(240, 238, 238);
+    margin-bottom: 20px;
+}
+
+
+
+
+.profil_prof>h4
+{
+    color: red;
+    text-transform: capitalize;
+    
+}
+
+
+
+.tb_mob_skills,.tb_web_skills
+{
+
+    margin-top: 0;
+    font-size: 15px;
+    width: 100%;
+
+}
+
+h3{
+    font-size: 15px ;
+    color: white;
+}
+
+hr{
+    background-color: tomato;
+    border-style: none;
+    height: 2px;
+    width: 75%;
+}
+
+.wrk_exp
+{
+font-size: 15px;
+}
+
+.wrk_exp td:nth-child(1)
+{
+    width: 30%;
+    text-align: center;
+}
+
+
+.wrk_exp td:nth-child(2)
+{
+padding-left: 10px;
+}
+
+
+footer{
+
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+
+footer>div>a{
+    
+    text-decoration: none;
+}
